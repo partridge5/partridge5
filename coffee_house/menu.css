@@ -1,0 +1,178 @@
+/* THIS IS THE MENU STYLESHEET */
+body {
+    width:960px;
+    margin:auto;
+    background-image: url("images/woodgrain.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    }
+
+/* Table Styles */
+
+.tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+    border:none;
+    }
+    
+.tg td {
+         font-family:'Kelly Slab', sans-serif;
+         font-size:14px;
+         padding:10px 20px;
+         border-style:solid;
+         border-width:0px;
+         overflow:hidden;
+         word-break:normal;
+        }
+
+.tg th {
+        font-family:'Kelly Slab', sans-serif;
+        font-size:14px;
+        font-weight:normal;
+        padding:10px 20px;
+        border-style:solid;
+        border-width:0px;
+        overflow:hidden;
+        word-break:normal;
+        }
+        
+.tg .tg-c8wh { 
+        font-weight:bold;
+        font-size:larger;
+        }
+        
+.tg .tg-xdmr {
+        font-weight:bold;
+        font-size:xx-large;
+        vertical-align:top
+        }
+    
+.tg .tg-jik2{
+        font-family: Kalam, sans-serif; 
+        font-weight: bold; 
+        font-size:medium;
+        vertical-align:top
+        }
+        
+.tg .tg-xuzs {
+        font-weight:bold;
+        font-size:xx-large;
+        }
+        
+.tg .tg-26hn {
+        font-family: Kalam, sans-serif; 
+        font-size:medium;
+        font-weight: bold;
+        vertical-align:top
+        }
+        
+.tg .tg-u4la {
+        font-family: Kalam, sans-serif; 
+        font-weight: bold;
+        font-size:medium;
+        }
+        
+.tg .tg-a616 {
+        font-weight:bold;
+        font-size:large;
+        vertical-align:top
+        }
+    
+.tg .tg-le1p {
+        font-weight:bold;
+        font-size:medium;
+        vertical-align:top}
+  
+.menu {
+    float: right;
+    width: 80%;
+    margin:0px;
+    height: 100%;
+    text-align: left;
+    color: #ffffff;
+    }
+
+
+table {
+        width: 100%;
+        table-layout: fixed;
+        }
+
+thead {
+        text-align: left;
+        font-weight: bold;
+        }
+        
+#header {
+    background: rgba(158,28,0,0.65);
+    padding-top: 5px;
+    border: 1px;
+    width: 960px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 40px;
+    }
+    
+/*Did I ever mention how much I love comments?*/
+
+#header img {
+    height: 0%;
+    width: 25%;
+    position: relative;
+}
+
+.side {
+    background: rgba(222,184,135,0.35);
+    float: left;
+    clear: both;
+    border: 1px solid black;
+    text-align: center;
+    width: 19%;
+    height: 100%;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.side img {
+    height: 190px;
+    position: relative;
+    /*padding-left: 10px;*/
+    margin-left: 0px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+} 
+
+#main_menu {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    padding-right: 40px;
+}
+
+#main_menu li {
+    margin: 25px;
+
+}
+#main_menu li a {
+    display: inline;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* Ids are great!! */
+
+#bev {
+    background-color: #E04B19;
+    width:770px;
+}
+
+#past {
+    background-color: #730707;
+    width:770px;
+}
+/* Here's another comment. */

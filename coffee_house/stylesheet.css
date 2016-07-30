@@ -1,0 +1,119 @@
+body {
+    width: 960px;
+    margin: auto;
+    background-image: url("images/woodgrain.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+
+#header {
+    background: rgba(158,28,0,0.65);
+    padding-top: 5px;
+    border: 1px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 40px;
+    
+}
+
+#header img {
+    height: 0%;
+    width: 25%;
+    position: relative;
+}
+
+.side {
+    background: rgba(222,184,135,0.35);
+    float: left;
+    border: 1px;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+}
+
+.side img {
+    height: 90%;
+    width: 90%;
+    position: relative;
+    padding-left: 10px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+}
+    
+#main_menu {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    padding-right: 40px;
+
+
+}
+
+#main_menu li {
+    margin: 25px;
+
+}
+#main_menu li a {
+    display: inline;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+
+
+.main {
+    background-color: transparent;
+    float: right;
+    width: 75%;
+    height: 100%;
+    text-align: left;
+    border: 1px;
+    margin-left: 0.5px;
+    padding-bottom: 455px;
+    color: white;
+    padding-top: 30px;
+    padding-left: 5px;
+}
+
+
+.main img {
+    height: 25%;
+    width: 25%;
+    position: relative;
+    /*padding-left: 200px;*/
+    margin-left: 0px;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    font-size: 60px;
+}
+
+
+.main_page {
+    color: white;
+    width: 30%;
+    position:relative;
+    font-size: 30px;
+  
+}
+
+.galaxy {
+    height: 100%;
+    width: 100%;
+    position:relative;
+    margin-left: 160px;
+    margin-top: -600px;
+    background-repeat: no-repeat;
+    
+}
