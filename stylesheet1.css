@@ -1,0 +1,99 @@
+.nav a {
+    text-decoration: none;
+}
+
+section a {
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav li {
+    display: inline-block;
+    width: 315px;
+    text-align: center;
+
+}
+.nav ul {
+    list-style: none;
+    margin: auto;
+    padding: 0px;
+}
+
+/* VISITED */
+
+.nav li a:link, nav li a:visited {
+    font-size: 20pt;
+    font-weight: bold;
+    display: block;
+    padding: 3px 0px 3px 3px;
+    background-color: #9F04FD;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* HOVER */
+
+.nav li a:hover, nav li a:active {
+    font-size: 20pt;
+    font-weight: bold;
+    display: block;
+    padding: 3px 0px 3px 0px;
+    background-color: #8AFF33;
+    color: #000000;
+}
+
+body {
+    width: 960px;
+    background-color: #DFFFFE;
+    margin:auto;
+}
+
+img {
+    float: left;
+    padding-right: 2px;
+}
+bio {
+    float: right;
+    margin-left: 10px;
+}
+
+/* Video uses google fonts. */
+
+.video {
+    margin: auto;
+    text-align: center;
+    font-family: 'Bitter', serif;
+}
+
+/*Google uses google fonts. */
+
+#google {
+    font-family: 'Aref Ruqaa', serif;
+}
+
+/* ID info uses google fonts.  */
+
+#info {
+    font-family: 'Aref Ruqaa', serif;
+    font-size: larger;
+    color: purple;
+    font-weight: bold;
+}
+
+#title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+}
+
+#dinu {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+    font-weight: bold;
+    background-color:#D2DAFA;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    font-family: Arial;
+    font-weight: bold;
+}
